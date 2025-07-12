@@ -1,0 +1,40 @@
+.trending-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between; /* Ensures spacing */
+  }
+  
+  .trending-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+    width: 48%; /* Ensures two columns */
+   
+    border-radius: 8px;
+  }
+  
+  .trending-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+  }
+  
+  .song-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .song-name {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .artist-name {
+    color: #bbb;
+  }
+  

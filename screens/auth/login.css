@@ -1,0 +1,44 @@
+
+.login-page {
+    background-color: #2d2b2b;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+  }
+  
+  .logo {
+    width: 30%;
+    position: absolute;
+    top: 10px; /* Top se distance (adjustable) */
+    left: 50%; /* Horizontally center */
+    transform: translateX(-50%); /* Horizontal center alignment ke liye */
+    text-align: center; 
+  }
+  
+  .login-btn {
+    width: 200px;
+    padding: 15px 0px;
+    text-align: center;
+    background-color: #fefefe;
+    border-radius: 50px;
+    color: #1f1f1f;
+    font-weight: 600;
+    margin-top: 20%;
+    position: absolute; /* Add this */
+    top: 30px; /* Vertically center */
+    left: 50%; /* Horizontally center */
+    transform: translate(-50%, -50%);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  
